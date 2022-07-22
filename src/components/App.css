@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  
+}
+body{
+  background-image: url('./texture-background-wood.jpg');
+  background-size: cover;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.nav {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-decoration: none;
+}
+
+.createPostPage {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+}
+
+.cpContainer {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 12px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.transparent-input{
+  background-color:transparent !important;
+  border:none !important;
+}
+
+.button {
+      background:transparent;
+      color: black !important;
+    
+      font-size:1rem;
+
+      border-top-left-radius: 255px 15px !important;
+      border-top-right-radius: 15px 225px !important;
+      border-bottom-right-radius: 225px 15px !important;
+      border-bottom-left-radius:15px 255px !important;
+
+      border:solid 3px #41403E !important;
+      padding-left: 2em !important;
+      padding-right: 2em !important;
+}
+
+button:hover{
+   box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+button.lined.thick{
+   border:solid 3px #41403E;
+}
+button.dotted.thick{
+   border:dotted 3px #41403E;
+}
+button.dashed.thick{
+  border:dashed 3px #41403E;
+}
+button.lined.thin{
+   border:solid 2px #41403E;
+}
+button.dotted.thin{
+   border:dotted 2px #41403E;
+}
+button.dashed.thin{
+  border:dashed 2px #41403E;
+}
+
+.font-link {
+  font-family: 'Indie Flower', cursive;
+}
+
+.hiddenbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.hiddenbar {
+-ms-overflow-style: none; 
+scrollbar-width: none; 
+}
+
+.cards{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+.cards{
+  width: 100% !important;
+  
+}
+.font-link {
+  font-size: small !important;
+}
+.profile-img {
+  width:20px !important;
+}
+.header {
+  font-size: 20px !important;
+  padding-top: 2em !important;
+}
+.back-image{
+  height: 90vh !important;
+  width: 100vw !important;
+  
+}
+
+.category-box {
+  padding-bottom: 0em !important;
+        
+}
+.entry-box {
+  padding-bottom: 2em !important;
+  
+}
+
+}
+@media only screen and (max-width: 1279px) {
+  .cards{
+    width: 100% !important;
+    
+  }
+  .font-link {
+    font-size: medium !important;
+    
+  }
+  }
+
+@media (min-width: 1280px) {
+    .cards{
+      width: 50% !important;
+      
+    }
+    .font-link {
+      font-size: large !important;
+      padding-bottom: 2px !important;
+      
+    }
+    .category-box {
+      padding-bottom: 0em !important;
+    }
+    .entry-box{
+      max-height: 5em !important;
+    }
+    }
+
+      @media (min-width: 600px) {
+        
+        
+        }
+        .category-box {
+          padding-bottom: 3em !important;
+        }
+        
