@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Clonning and installing the app
+
+Open your terminal and then type
+
+$ git clone {https://github.com/MLin27/journal-app)}
+
+This will clone the repository
+
+Switch via cd into the new folder and type
+
+$ npm install
+
+This will install the required dependencies and packages. 
+
+To run the React project, use the following command
+
+$ npm start
+
+
 ## Available Scripts
 
 In the project directory, you can run:
